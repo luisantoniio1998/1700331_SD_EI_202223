@@ -7,6 +7,7 @@ print(type(x))
 print(s.pow(x%150,y%10))  # Returns 2**3 = 8
 print(s.add(x,y))  # Returns 5
 print(s.mul(x,y))  # Returns 5*2 = 10
+print(s.ia()) #Returns inteligencia artificial
 
 # Print list of available methods
 print(s.system.listMethods())
