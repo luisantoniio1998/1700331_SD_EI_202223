@@ -19,9 +19,9 @@ with SimpleXMLRPCServer(('localhost', 8000),
         return x + y
     server.register_function(adder_function, 'add')
 
-    def ia(): 
+    def chatGPT4(): 
         return ("Inteligencia Artificial")
-    server.register_function(ia, 'ia')
+    server.register_function(chatGPT4, 'ia')
 
     # Register an instance; all the methods of the instance are
     # published as XML-RPC methods (in this case, just 'mul').
