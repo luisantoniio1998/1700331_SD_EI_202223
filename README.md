@@ -4,5 +4,5 @@ Luís Barros, 1700331
 
 Engenharia Informática
 
-
-![alt text](./images/ia.jpg)
+Arquitetura do projeto a ser desenvolvido
+![alt text](./images/arquitetura.png )
