@@ -19,5 +19,5 @@ while True:
     if choice == "3":
         print("A sair do programa...")
         break 
-    elif choice != 1 or choice != 2 or choice != 3 or choice != 4:
-        print("Opcao correta. Escolha uma das opcoes acima ")
+    else :
+        print("Opcao incorreta. Escolha uma das opcoes acima ")
