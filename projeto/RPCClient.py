@@ -1,26 +1,17 @@
 import xmlrpc.client
 
-server = xmlrpc.client.ServerProxy("http://localhost:8000/")
+def menu():
+    print("Serializar e Deserializar bloco Bitcoin")
+    print("********************************************")
+    print("0. Receber informação de um bloco de bitcoin")
+    print("1. Serializar ficheiro com informação do bloco")
+    print("2. Deserializar ficheiro com informação do bloco")
+    print("*********************************************")
+    option = input("Enter an option: ")
+    if option == "0":
+        hash_code = input("Enter the hash code: ")
+        server = xmlrpc.client.ServerProxy("http://localhost:8000")
+        response = server.get_block_info(hash_code)
+        print(response)
 
-print("***************************************************")
-print("\nSERIALIZAR E DESERIALIZAR BITCOIN")
-while True:
-    print("\n****************************************************")
-    print("Selecione uma opcao")    
-    print("0. Obter informacao de um bloco de Bitcoin")
-    print("1. Serializar ficheiro com info do bloco de Bitcoin")
-    print("2. Deserializar ficheiro com info do bloco de Bitcoin")
-    print("3. Sair")
-    print("*****************************************************")
-    
-    choice = input("\nOpcao (0 -3): ")
-    
-
-    if choice == "3":
-        print("A sair do programa...")
-        break 
-    elif choice == "0":
-        hash_code = input("Enter hash code:")
-        print(str(server.get_information(hash_code)))
-    else :
-        print("Opcao incorreta. Escolha uma das opcoes acima ")
+menu()
