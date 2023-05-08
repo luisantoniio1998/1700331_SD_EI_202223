@@ -20,8 +20,7 @@ while True:
         print("A sair do programa...")
         break 
     elif choice == "0":
-        x = input("Enter hash code:")
-        filename = server.get_information(x)
-        print(filename)
+        hash_code = input("Enter hash code:")
+        print(str(server.get_information(hash_code)))
     else :
         print("Opcao incorreta. Escolha uma das opcoes acima ")
