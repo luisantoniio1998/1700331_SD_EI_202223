@@ -17,13 +17,13 @@ while True:
         response = server.get_block_info(hash_code)
         print(response)
     elif option == "1":
-        hash_code = input("Digite o código hash pretendido :")
+        hash_code = input("\nDigite o código hash pretendido :")
         filename = filename = hash_code + ".txt"
         server = xmlrpc.client.ServerProxy("http://localhost:8000")
         response = server.serialize_file(filename)
         print(response)
     elif option == "2":
-        hash_code = input("Digite o código hash pretendido :")
+        hash_code = input("\nDigite o código hash pretendido :")
         server = xmlrpc.client.ServerProxy("http://localhost:8000")
         response = server.deserialize_file(hash_code + ".txt" + ".pickle")
         print(response)

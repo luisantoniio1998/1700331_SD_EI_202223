@@ -39,6 +39,7 @@ class BlockInfoServer(xmlrpc.server.SimpleXMLRPCServer):
             serialized_file = f.read()
         deserialized_file = pickle.loads(serialized_file)
         return "Ficheiro deserializado em : " + deserialized_file
+    
 
 server = BlockInfoServer(("localhost", 8000))
 print("A receber na porta 8000...")
