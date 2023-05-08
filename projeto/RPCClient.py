@@ -1,5 +1,4 @@
 import xmlrpc.client
-import sys
 
 while True:
     print("\n********************************************")

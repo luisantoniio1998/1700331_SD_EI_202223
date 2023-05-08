@@ -17,10 +17,9 @@ class BlockInfoServer(xmlrpc.server.SimpleXMLRPCServer):
             data = response.json()
             filename = hash_code + ".txt"
 
-            #num_txns = data['n_tx']
             with open(filename, "w") as f:
                 f.write(str(data))
-                #f.write("Number of transactions: " + str(num_txns))
+            
             return "Informação do bloco guardado em " + filename
         else:
             return "Erro: Não foi possivel obter a informação do bloco desejado"
@@ -41,6 +40,6 @@ class BlockInfoServer(xmlrpc.server.SimpleXMLRPCServer):
         return "Ficheiro deserializado em : " + deserialized_file
     
 
-server = BlockInfoServer(("localhost", 8001))
+server = BlockInfoServer(("localhost", 8000))
 print("A receber na porta 8000...")
 server.serve_forever()
