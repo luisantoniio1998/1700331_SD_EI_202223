@@ -19,5 +19,9 @@ while True:
     if choice == "3":
         print("A sair do programa...")
         break 
+    elif choice == "0":
+        x = input("Enter hash code:")
+        filename = server.get_information(x)
+        print(filename)
     else :
         print("Opcao incorreta. Escolha uma das opcoes acima ")
