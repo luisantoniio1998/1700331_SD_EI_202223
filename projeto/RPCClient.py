@@ -22,6 +22,11 @@ while True:
         server = xmlrpc.client.ServerProxy("http://localhost:8000")
         response = server.serialize_file(filename)
         print(response)
+    elif option == "2":
+        hash_code = input("Digite o código hash pretendido :")
+        server = xmlrpc.client.ServerProxy("http://localhost:8000")
+        response = server.deserialize_file(hash_code + ".txt" + ".pickle")
+        print(response)
     elif option == "3":
         print("\nA sair do programa...")
         break
