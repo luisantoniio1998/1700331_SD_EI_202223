@@ -41,6 +41,6 @@ class BlockInfoServer(xmlrpc.server.SimpleXMLRPCServer):
         return "Ficheiro deserializado em : " + deserialized_file
     
 
-server = BlockInfoServer(("localhost", 8000))
+server = BlockInfoServer(("localhost", 8001))
 print("A receber na porta 8000...")
 server.serve_forever()
