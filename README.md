@@ -31,10 +31,10 @@ De seguida criei um ficheiro com a ideia da interface mostrada ao cliente podend
 escolher se desejaria obter informação de um bloco de Bitcoin, serializar o ficheiro com a
 informação ou desserializar o ficheiro.
 Ficheiro esse mostrado de seguida : 
-  ![alt text](./images/screen2.png)
+      ![alt text](./images/screen2.png)
   De seguida foi necessária a implementação no servidor RPC com as funções correspondentes a cada opção possível para o cliente : 
   Esta função é basicamente o mesmo do que aquilo mostrado no ficheiro.
-  ![alt text](.images/screen3.png)
+      ![alt text](.images/screen3.png)
 
 
 
