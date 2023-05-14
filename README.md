@@ -18,8 +18,7 @@ usada para o desenvolvimento deste trabalho
   Inicialmente foi feito um teste com um simples ficheiro em python para recolher informação
 de um bloco de bitcoin quando feito o input do código hash.Código esse mostrado na figura 
 seguinte :   
-  ![alt text](./images/screen1.png )
-      
+  ![alt text](./images/screen1.png )   
   Na linha 1 é feita a importação da biblioteca requests falada anteriormente, na linha 3 defini
 o endpoint URL para a API, na linha 7 é feito o request e guarda a resposta, na linha 10
 acontece que se o estado da resposta não for a desejada levanta uma exceção, na linha 12
