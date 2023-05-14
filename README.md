@@ -36,7 +36,6 @@ Ficheiro esse mostrado de seguida :
           
   De seguida foi necessária a implementação no servidor RPC com as funções correspondentes a cada opção possível para o cliente : 
   Esta função é basicamente o mesmo do que aquilo mostrado no ficheiro.
-  
       ![alt text](./images/screen3.png)
 
 
