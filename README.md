@@ -54,6 +54,13 @@ Na linha 37 abre o ficheiro serializado em modo leitura binária , na linha 38 l
     De seguida mostro o código do cliente em que faz print a um menu, e a cada opção escolhida pede o código hash do bloco pretendido, conecta-se ao servidor chamando a função de acordo com a opção escolhida e faz print à resposta dessa mesma função. 
   ![alt text](./images/screen8.png)
   # 3. Funcionamento do trabalho
+  ![alt text](./images/screen9.png)
+  ![alt text](./images/screen10.png) 
+  As figuras acima demonstram a execução do servidor e do cliente. 
+  ![alt text](./images/screen11.png)
+  De seguida, fui buscar um código hash de um bloco de Bitcoin recente, como mostrado na figura acima.
+  ![alt text](./images/screen12.png)
+  Como mostrado acima foi escolhida a opção 0 pelo cliente (Receber informação de um bloco de bitcoin) e foi feito o input do código hash. E retorna o seguinte : 
 
 
 
