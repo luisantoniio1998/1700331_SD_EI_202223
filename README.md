@@ -42,6 +42,19 @@ De modo a que o utilizador apenas necessite de saber o código hash do bloco par
   ![alt text](./images/screen4.png)    
       Este método de serialização foi usado nas aulas, de qualquer das maneiras, irei explicar o funcionamento do mesmo. 
   Na linha 28 abre o ficheiro em modo leitura, na linha 29 lê o conteúdo desse mesmo ficheiro. Depois na linha 30 usando a livraria do pickle é serializado o conteúdo do ficheiro, na linha 32  é serializado o próprio ficheiro anexando “.pickle” ao ficheiro original, na linha 32 abre o ficheiro serializado em modo escrita binária, na linha 33 escreve o conteúdo serializado no ficheiro também serializado, na linha 34 retorna que o ficheiro serializado foi guardado juntamente com o nome do ficheiro. 
+  Para a desserialização a função foi a seguinte: 
+  ![alt text](./images/screen5.png)
+  Também foi um método lecionado em aula, mas procedo à explicação do mesmo : 
+Na linha 37 abre o ficheiro serializado em modo leitura binária , na linha 38 lê o conteúdo desse mesmo ficheiro, na linha 39 desserializa o ficheiro usando o pickle e na linha 40 retorna uma mensagem para o cliente indicado o ficheiro desserializado, fazendo um print dos dados brutos relativo ao bloco de Bitcoin. 
+
+  Ainda no server , o código demonstrado de seguida para registar as funções e para definir o método construtor e para chamar o construtor da classe pai com o endereço fornecido e é igualado o allow_none a True para que o XML-RPC server manipule valores none. 
+  ![alt text](./images/screen6.png)
+  Este código situa-se no início do ficheiro. De seguida o código que se situa no fim do script que instancia o objeto BlockInfoServer que escutará conexões na máquina local na porta 8000, fazendo o print que se encontra a receber na porta 8000 assim que é executado. Coloquei o server.serve_forever para que a ligação não terminasse a cada função executada
+  ![alt text](./images/scvreen7.png)
+  De seguida mostro o código do cliente em que faz print a um menu, e a cada opção escolhida pede o código hash do bloco pretendido, conecta-se ao servidor chamando a função de acordo com a opção escolhida e faz print à resposta dessa mesma função. 
+  ![alt text](./images/screen8.png)
+  # 3. Funcionamento do trabalho
+
 
 
 
