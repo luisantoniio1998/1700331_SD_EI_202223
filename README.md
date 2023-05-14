@@ -50,7 +50,7 @@ Na linha 37 abre o ficheiro serializado em modo leitura binária , na linha 38 l
   Ainda no server , o código demonstrado de seguida para registar as funções e para definir o método construtor e para chamar o construtor da classe pai com o endereço fornecido e é igualado o allow_none a True para que o XML-RPC server manipule valores none.  <br>
   ![alt text](./images/screen6.png) <br>
     Este código situa-se no início do ficheiro. De seguida o código que se situa no fim do script que instancia o objeto BlockInfoServer que escutará conexões na máquina local na porta 8000, fazendo o print que se encontra a receber na porta 8000 assim que é executado. Coloquei o server.serve_forever para que a ligação não terminasse a cada função executada <br>
-  ![alt text](./images/scvreen7.png) <br>
+  ![alt text](./images/screen7.png) <br>
     De seguida mostro o código do cliente em que faz print a um menu, e a cada opção escolhida pede o código hash do bloco pretendido, conecta-se ao servidor chamando a função de acordo com a opção escolhida e faz print à resposta dessa mesma função.  <br>
   ![alt text](./images/screen8.png)
   # 3. Funcionamento do trabalho <br>
