@@ -73,7 +73,20 @@ Na linha 37 abre o ficheiro serializado em modo leitura binária , na linha 38 l
   De seguida foi escolhida a opção 2 : desserializar o ficheiro pickle acabado de criar: <br>
   ![alt text](./images/screen18.png)<br>
   Com o seguinte retorno: <br>
-  ![alt text](./images/screen19.png)<br>
+  ![alt text](./images/screen20.png)<br>
+  Ou seja, imprimiu os dados brutos relativos ao bloco de Bitcoin. Como desejado o servidor continua a funcionar podendo assim fazer o get request da informação de vários blocos de bitcoin e serializar ou desserializar vários ficheiros até o cliente escolher a opção 3 ou terminar o processo, como indicado na figura seguinte:<br>
+  ![alt text](./images/screen21.png)<br>
+  # 3. Conclusão <br>
+  O objetivo do trabalho foi concluído permitindo ao cliente a opção de ir buscar informação de um bloco de bitcoin, serializar o ficheiro gerado em que o conteúdo do mesmo é a informação do bloco de Bitcoin, e desserializar o ficheiro serializado. Haveria a possibilidade de em vez de fazer em programa no terminal fazer num html para ter ser mais user-friendly e estético de qualquer das maneiras a geração dos ficheiros, e serialização e desserialização dos mesmos mas principalmente a geração dos ficheiros obrigaria na mesma ao utilizador de usar  o File Explorer do Sistema Operativo perdendo assim a razão de usar em ficheiro HTML.<br>
+  # 4. Bibliografia <br>
+[1] Documentos fornecidos pelo docente em contexto de aula <br>
+[2] Tutorial: Web Scraping with Python Using Beautiful Soup <br>
+[3] Dataquest pickle <br>
+[4] Python object serialization<br> 
+[5]  Python 3.10.4 documentation Blockchain Explorer <br> 
+[6] Pesquise o Blockchain | BTC | ETH | BCH <br>
+[7] What is Beautiful Soup? (educative.io) <br>
+[8] https://chat.openai.com/ (ChatGPT) <br>
   
   
   
