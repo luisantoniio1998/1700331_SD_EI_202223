@@ -19,6 +19,7 @@ usada para o desenvolvimento deste trabalho
 de um bloco de bitcoin quando feito o input do código hash.Código esse mostrado na figura 
 seguinte :   
   ![alt text](./images/screen1.png )
+      
   Na linha 1 é feita a importação da biblioteca requests falada anteriormente, na linha 3 defini
 o endpoint URL para a API, na linha 7 é feito o request e guarda a resposta, na linha 10
 acontece que se o estado da resposta não for a desejada levanta uma exceção, na linha 12
@@ -32,6 +33,7 @@ escolher se desejaria obter informação de um bloco de Bitcoin, serializar o fi
 informação ou desserializar o ficheiro.
 Ficheiro esse mostrado de seguida : 
       ![alt text](./images/screen2.png)
+          
   De seguida foi necessária a implementação no servidor RPC com as funções correspondentes a cada opção possível para o cliente : 
   Esta função é basicamente o mesmo do que aquilo mostrado no ficheiro.
       ![alt text](.images/screen3.png)
