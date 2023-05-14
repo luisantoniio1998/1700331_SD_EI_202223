@@ -38,7 +38,8 @@ Ficheiro esse mostrado de seguida :
   Uma breve explicação do que o código faz é o seguinte : Na linha 13 é definido o URL do API da blockchain onde vai buscar a informação do bloco, na linha 14 faz um request GET ao API da blockchain, na linha 15 confirma se o estado da resposta é de 200, o que significa que o request foi bem sucedido. Na linha 17 analisa a informação JSON e coloca-a num dicionário Python, na linha 18 cria um ficheiro txt em que o nome é o código hash. Na linha 20 abre esse mesmo ficheiro em modo escrita e na linha 21 escreve os dados brutos do bloco no ficheiro. Se o estado da resposta é o desejado retorna ao cliente que a informação do bloco foi guardada no ficheiro, caso contrário retorna uma mensagem de erro. 
 
 De modo a que o utilizador apenas necessite de saber o código hash do bloco para funcionar sempre com o mesmo input e não necessitar de ir à procura dos nomes dos ficheiros que deseja serializar ou desserializar tornei esse o único input para todas as opções , ou seja, o input para obter informação do bloco, serializar o ficheiro e desserializar o ficheiro é o código hash do bloco pretendido. Isto possibilita também que o cliente trabalhe com mais do que um ficheiro e mais do que um bloco e a sua informação. 
-De seguida demonstro a função de serialização: 
+  De seguida demonstro a função de serialização: 
+  ![alt text](./images/screen4.png)
 
 
 
