@@ -61,6 +61,22 @@ Na linha 37 abre o ficheiro serializado em modo leitura binária , na linha 38 l
   De seguida, fui buscar um código hash de um bloco de Bitcoin recente, como mostrado na figura acima.<br>
   ![alt text](./images/screen12.png)<br>
   Como mostrado acima foi escolhida a opção 0 pelo cliente (Receber informação de um bloco de bitcoin) e foi feito o input do código hash. E retorna o seguinte : <br>
+  ![alt text](./images/screen13.png)<br>
+  Sendo a seguinte figura um print do conteúdo desse mesmo ficheiro <br>
+  ![alt text](./images/screen14.png)<br>
+  De seguida vou demonstrar a serialização do ficheiro com a informação relativa ao bloco anteriormente demonstrado, ou seja, com o mesmo código hash. <br>
+  ![alt text](./images/screen15.png)<br>
+  Com o retorno: <br>
+  ![alt text](./images/screen16.png)<br>
+  ![alt text](./images/screen17.png)<br>
+  Gravando um ficheiro em formato PICKLE como pretendido.<br>
+  De seguida foi escolhida a opção 2 : desserializar o ficheiro pickle acabado de criar: <br>
+  ![alt text](./images/screen18.png)<br>
+  Com o seguinte retorno: <br>
+  ![alt text](./images/screen19.png)<br>
+  
+  
+  
 
 
 
