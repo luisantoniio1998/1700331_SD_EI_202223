@@ -43,7 +43,7 @@ De modo a que o utilizador apenas necessite de saber o código hash do bloco par
       Este método de serialização foi usado nas aulas, de qualquer das maneiras, irei explicar o funcionamento do mesmo. 
   Na linha 28 abre o ficheiro em modo leitura, na linha 29 lê o conteúdo desse mesmo ficheiro. Depois na linha 30 usando a livraria do pickle é serializado o conteúdo do ficheiro, na linha 32  é serializado o próprio ficheiro anexando “.pickle” ao ficheiro original, na linha 32 abre o ficheiro serializado em modo escrita binária, na linha 33 escreve o conteúdo serializado no ficheiro também serializado, na linha 34 retorna que o ficheiro serializado foi guardado juntamente com o nome do ficheiro. 
   Para a desserialização a função foi a seguinte:  <br>
-  ![alt text](./images/screen5.png) 
+  ![alt text](./images/screen5.png) <br>
     Também foi um método lecionado em aula, mas procedo à explicação do mesmo : 
 Na linha 37 abre o ficheiro serializado em modo leitura binária , na linha 38 lê o conteúdo desse mesmo ficheiro, na linha 39 desserializa o ficheiro usando o pickle e na linha 40 retorna uma mensagem para o cliente indicado o ficheiro desserializado, fazendo um print dos dados brutos relativo ao bloco de Bitcoin. 
 
