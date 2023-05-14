@@ -11,7 +11,7 @@ blockchain.com para obter a informação de um bloco de Bitcoin possibilitando a
 informação bruta relativa a um bloco de Bitcoin usando um GET request , desde que seja
 fornecido o hash code do bloco pretendido. Na figura a baixo é demonstrada a arquitetura
 usada para o desenvolvimento deste trabalho 
-  ![alt text](./images/arquitetura.png )
+      ![alt text](./images/arquitetura.png )
   
   # 2. Implementação do Trabalho
 
