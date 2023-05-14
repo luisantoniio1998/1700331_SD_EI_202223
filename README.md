@@ -1,5 +1,4 @@
-# 1700331_SD_EI_202223
-## Luis Barros, 1700331, Engenharia Informática
+# Luis Barros, 1700331, Engenharia Informática
 
 # Descrição do Trabalho
 
