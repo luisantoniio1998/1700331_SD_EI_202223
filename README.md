@@ -13,7 +13,7 @@ fornecido o hash code do bloco pretendido. Na figura a baixo é demonstrada a ar
 usada para o desenvolvimento deste trabalho 
   ![alt text](./images/arquitetura.png )
   
-  ## Implementação do Trabalho
+  # 2. Implementação do Trabalho
 
   Inicialmente foi feito um teste com um simples ficheiro em python para recolher informação
 de um bloco de bitcoin quando feito o input do código hash.Código esse mostrado na figura 
