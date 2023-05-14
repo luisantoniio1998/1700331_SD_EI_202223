@@ -40,6 +40,9 @@ Ficheiro esse mostrado de seguida :
 De modo a que o utilizador apenas necessite de saber o código hash do bloco para funcionar sempre com o mesmo input e não necessitar de ir à procura dos nomes dos ficheiros que deseja serializar ou desserializar tornei esse o único input para todas as opções , ou seja, o input para obter informação do bloco, serializar o ficheiro e desserializar o ficheiro é o código hash do bloco pretendido. Isto possibilita também que o cliente trabalhe com mais do que um ficheiro e mais do que um bloco e a sua informação. 
   De seguida demonstro a função de serialização: 
   ![alt text](./images/screen4.png)
+  Este método de serialização foi usado nas aulas, de qualquer das maneiras, irei explicar o funcionamento do mesmo. 
+  Na linha 28 abre o ficheiro em modo leitura, na linha 29 lê o conteúdo desse mesmo ficheiro. Depois na linha 30 usando a livraria do pickle é serializado o conteúdo do ficheiro, na linha 32  é serializado o próprio ficheiro anexando “.pickle” ao ficheiro original, na linha 32 abre o ficheiro serializado em modo escrita binária, na linha 33 escreve o conteúdo serializado no ficheiro também serializado, na linha 34 retorna que o ficheiro serializado foi guardado juntamente com o nome do ficheiro. 
+
 
 
 
