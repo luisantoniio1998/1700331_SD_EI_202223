@@ -10,7 +10,7 @@ desserialização do mesmo. Para a realização deste projeto foi usado um API d
 blockchain.com para obter a informação de um bloco de Bitcoin possibilitando assim obter
 informação bruta relativa a um bloco de Bitcoin usando um GET request , desde que seja
 fornecido o hash code do bloco pretendido. Na figura a baixo é demonstrada a arquitetura
-usada para o desenvolvimento deste trabalho  (`<br>`)
+usada para o desenvolvimento deste trabalho  <br>
       ![alt text](./images/arquitetura.png )
   
   # 2. Implementação do Trabalho
