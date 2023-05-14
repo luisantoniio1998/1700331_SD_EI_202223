@@ -1,6 +1,6 @@
 # Luis Barros, 1700331, Engenharia Informática
 
-# Descrição do Trabalho
+# 1. Descrição do Trabalho
 
 Neste relatório irá ser demonstrado todo o processo de criação de um cliente e server RPC,
 cujo objetivo é de serializar e desserilizar informação relativa a um bloco de Bitcoin. De
