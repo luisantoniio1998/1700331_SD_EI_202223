@@ -17,9 +17,9 @@ usada para o desenvolvimento deste trabalho
 
   Inicialmente foi feito um teste com um simples ficheiro em python para recolher informação
 de um bloco de bitcoin quando feito o input do código hash.Código esse mostrado na figura 
-seguinte :  
+seguinte :   
   ![alt text](./images/screen1.png )
-Na linha 1 é feita a importação da biblioteca requests falada anteriormente, na linha 3 defini
+  Na linha 1 é feita a importação da biblioteca requests falada anteriormente, na linha 3 defini
 o endpoint URL para a API, na linha 7 é feito o request e guarda a resposta, na linha 10
 acontece que se o estado da resposta não for a desejada levanta uma exceção, na linha 12
 é criado um ficheiro com o nome “código hash” em formato txt. Na linhas 13 abre esse
@@ -30,7 +30,13 @@ RPC, tal como a serialização e desserialização do ficheiro gerado.
 De seguida criei um ficheiro com a ideia da interface mostrada ao cliente podendo o mesmo
 escolher se desejaria obter informação de um bloco de Bitcoin, serializar o ficheiro com a
 informação ou desserializar o ficheiro.
-Ficheiro esse mostrado de seguida :
+Ficheiro esse mostrado de seguida : 
+  ![alt text](./images/screen2.png)
+  De seguida foi necessária a implementação no servidor RPC com as funções correspondentes a cada opção possível para o cliente : 
+  Esta função é basicamente o mesmo do que aquilo mostrado no ficheiro.
+  ![alt text](.images/screen3.png)
+
+
 
 
 
